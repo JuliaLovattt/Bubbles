@@ -28,7 +28,8 @@ int main(int argc, const char* argv[])
         sf::Color(192, 192, 127),
         sf::Color(127, 192, 192),
     };
-    //creating the bubbles
+
+    //creating the bubbles vectors 
     std::vector<sf::CircleShape> bubbles;
     for (size_t i = 1; i < 11; i++) {
         for (size_t j = 0; j < (WINDOW_W / 2) / 40 - (i % 2); j++) {
